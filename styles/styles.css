@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
